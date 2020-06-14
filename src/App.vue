@@ -24,13 +24,17 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  data: () => ({
+    title: "Vue Groups",
+    authenticated: true
+  }),
+  methods: {
+    login () {},
+    async logout () {
+    }
+  },
 }
 </script>
 
