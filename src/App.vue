@@ -40,11 +40,27 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.branding {
+  flex: 1;
+  text-align: left;
+}
+
+h1, h2 {
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.router {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.content {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 1024px;
 }
 </style>
